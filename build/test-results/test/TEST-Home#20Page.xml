@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Home Page" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-15T18:56:58.957Z" hostname="SERAFINA" time="1.69">
+  <properties/>
+  <testcase name="Verify Home Page title is displayed" classname="Home Page" time="1.69"/>
+  <system-out><![CDATA[
+@navigate
+?[1mScenario:?[22m Verify Home Page title is displayed       ?[90m# file:///C:/QA/FirstCucumberProject/src/test/resources/features/navigate.feature:4?[39m
+  ?[32mâœ”?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m              ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.launch_browser()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mWhen ?[22mUser opens Home Page?[39m                       ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.open_HomePage()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mThen ?[22mUser verifies Home Page title is displayed?[39m ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.verify_HomePage_title()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mAnd ?[22mUser quites browser?[39m                         ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.quit_browser()?[39m
+]]></system-out>
+  <system-err><![CDATA[Aug 15, 2025 8:56:59 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (138.0.7204.49) detected in PATH at C:\Tools\chromedriver.exe might not be compatible with the detected chrome version (139.0.7258.128); currently, chromedriver 139.0.7258.68 is recommended for chrome 139.*, so it is advised to delete the driver in PATH and retry
+]]></system-err>
+</testsuite>

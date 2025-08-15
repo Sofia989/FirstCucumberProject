@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-15T18:56:54.934Z" hostname="SERAFINA" time="4.022">
+  <properties/>
+  <testcase name="Login with correct data" classname="Login" time="4.022"/>
+  <system-out><![CDATA[
+@positive
+?[1mScenario:?[22m Login with correct data                   ?[90m# file:///C:/QA/FirstCucumberProject/src/test/resources/features/login.feature:4?[39m
+  ?[32mâœ”?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m              ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.launch_browser()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mWhen ?[22mUser opens Home Page?[39m                       ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.open_HomePage()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mAnd ?[22mUser clicks on Login link?[39m                   ?[90m# com.ilCarro.stepDefinitions.LoginSteps.click_on_Login_link()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mAnd ?[22mUser enters correct data?[39m                    ?[90m# com.ilCarro.stepDefinitions.LoginSteps.enters_correct_data()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mAnd ?[22mUser clicks on Yalla button?[39m                 ?[90m# com.ilCarro.stepDefinitions.LoginSteps.click_on_Yalla_button()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mThen ?[22mUser verifies Success message is displayed?[39m ?[90m# com.ilCarro.stepDefinitions.LoginSteps.verify_Success_message()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mAnd ?[22mUser quites browser?[39m                         ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.quit_browser()?[39m
+]]></system-out>
+  <system-err><![CDATA[Aug 15, 2025 8:56:55 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (138.0.7204.49) detected in PATH at C:\Tools\chromedriver.exe might not be compatible with the detected chrome version (139.0.7258.128); currently, chromedriver 139.0.7258.68 is recommended for chrome 139.*, so it is advised to delete the driver in PATH and retry
+]]></system-err>
+</testsuite>

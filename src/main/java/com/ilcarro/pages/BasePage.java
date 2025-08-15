@@ -60,7 +60,6 @@ public class BasePage {
 
         }
     }
-
     public void quitBrowser() {
         driver.quit();
     }
